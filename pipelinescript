@@ -10,7 +10,7 @@ pipeline {
  
         stage('Checkout') { 
             steps { 
-                git branch: 'main', url: 'https://github.com/swastisudha2025-source/calculator.git' 
+                git branch: 'main', url: 'https://github.com/pag23-prog/devops' 
  
             } 
         } 
